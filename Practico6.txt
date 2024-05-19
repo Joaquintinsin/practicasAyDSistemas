@@ -1,0 +1,56 @@
+2. Extracción de dinero
+
+Dado el siguiente diagrama de clase y teniendo en cuenta que se dispone de los métodos
+gets y sets públicos para todos los atributos privados de cada clase, modelar mediante un diagrama de secuencias el siguiente escenario:
+
+Una persona desea realizar una extracción de dinero a través de un cajero automático.
+Para ello dispone de una tarjeta habilitada asociada a una cuenta de un banco, la cual posee saldo suficiente para dicha extracción. 
+La interacción comienza desde el main() de clase Principal invocando el método verificarClave de la clase Cajero. 
+El cliente ingresa la clave, la cual será verificada por el cajero permitiendo así mostrar el menú de opciones disponibles a ejecutar, en
+caso de ser correcta la verificación. En este caso, la clave ingresada es correcta. 
+Luego, la persona seleccionará la opción para realizar extracción con un importe de $500, con lo cual 
+el cajero deberá verificar la existencia del banco vinculado con la tarjeta, la existencia de la tarjeta en el banco y si el saldo de la misma
+permite realizar la extracción de dinero solicitada (un débito en este caso). 
+Como el saldo de la cuenta es suficiente, se creará un nuevo movimiento, se deberá actualizar la cuenta.
+Finalmente el cajero entrega el dinero con el correspondiente comprobante.
+
+
+3. Restaurante “A mi Gusto”
+
+Dado el modelo de clases del restaurante “A mi Gusto”, modele el siguiente escenario con un Diagrama de Secuencia UML. 
+
+“El cliente Aníbal Guevara, DNI 16.4587.96, desea abonar el monto total de su cena en efectivo, realizada el día 12/03/2008 a las 12 hs. 
+y fue atendido por el mesero “Morales”. El cliente ha consumido un plato especial del día y una gaseosa. 
+La propina del mozo corresponde al 10% del monto total y el impuesto al 3% del mismo”.
+
+calcularMontoTotal: calcula el monto total de la consumición, sumando el monto de la comida, más el adicional por impuestos y la propina del mozo.
+buscarCliente: retorna un cliente específico.
+buscarOrden: retorna una orden específica.
+calcularOrden: calcula el monto correspondiente a la comida, sumando el monto de la bebida más el monto del plato.
+buscarBebida: retorna una bebida específica.
+buscarPlato: retorna un plato específico.
+calcularTotal: calcula el monto total de la consumición, dados el subtotal (bebida + plato), el valor de la propina y el de los impuestos.
+
+Nota: La secuencia de mensajes debe iniciar a través de un método main() de una clase Principal.
+La secuencia deberá describir el comportamiento del método calcularMontoTotal().
+
+
+4. Service Automotor
+
+Dado el siguiente diagrama de clases de diseño y teniendo en cuenta que se dispone
+de todos los métodos gets y sets públicos para todos los atributos privados de las clases,
+modele mediante un diagrama de secuencia el escenario que se describe a continuación:
+
+El Señor Daniel Romero, dni: 29.875.298 necesita realizar el segundo service de su automóvil en la agencia VW. 
+Sus datos personales y los de su automóvil ya han sido cargados en el sistema de la agencia en la realización del primer service de su automóvil.
+Su automóvil, número de chasis 18VW2672UT78 tiene al momento 28.765 kms. 
+En la realización del segundo service se ejecutarán los siguientes ítems: 
+	cambio de aceite con un costo de $23000
+	cambio de filtros con un costo de $5700.
+El valor (costoBasico) correspondiente al segundo service para este automóvil tiene un costo de $2600, 
+el costo total del service es la suma de este valor y los ítems efectuados.
+
+Debe quedar registrado en el sistema el servicio realizado con los datos correspondientes para el día 16/05/2023.
+
+Nota: La secuencia de mensajes debe iniciar a través de un método main() de una clase Principal.
+

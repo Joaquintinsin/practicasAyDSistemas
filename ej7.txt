@@ -1,0 +1,28 @@
+El laboratorio de análisis clínicos “Sanitos” nos solicita el desarrollo de un sistema que permita gestionar la información  que manejan en sus actividades diarias.
+En el laboratorio “Sanitos” se realizan diferentes estudios y de cada uno de ellos se registra un nombre, un código, una descripción y su costo. 
+Cada estudio puede ser realizado por uno o varios bioquímicos, y cada bioquímico realiza uno o más estudios. 
+En la realización de cada estudio se utilizan de uno a tres reactivos. 
+Cada reactivo puede ser usado en más de un estudio, y de los reactivos se conoce el nombre, código y estado (frío o a temperatura
+ambiente) en que se utiliza en cada estudio. 
+Los reactivos que se utilizan en el laboratorio pueden ser de origen nacional o internacional, 
+cuando es nacional se registra su marca, y en el caso de los reactivos que son internacionales se conoce el nombre del importador, y el
+tipo de moneda que se requiere para su pago (peso, dólar, euro). 
+Para cada reactivo internacional el laboratorio cuenta con un bioquímico responsable.
+
+De los bioquímicos del laboratorio se registra su nombre y apellido, dni, celular, 
+el nombre y código postal de la localidad en la que viven, y el nro. de matrícula profesional. 
+De los pacientes se registra el dni, nombre y apellido, celular, 
+el nombre y código postal de la localidad en la que viven, y un email para enviarle los resultados de los estudios.
+
+Además para cada paciente, se registran las indicaciones médicas en donde se solicita el pedido de estudios a realizar en el laboratorio. 
+De la indicación se conoce una fecha, el nro de afiliado, el diagnóstico y los estudios que se solicitan.
+
+Cuando un paciente llega al laboratorio con la indicación de los estudios a realizar, se
+genera un comprobante con un número, la fecha, el monto total que cubre la mutual, y el
+monto que debe abonar el paciente.
+
+El resultado de cada estudio (descripción y valoración) realizado a un paciente debe quedar registrado en el sistema.
+
+a) Identifica las entidades (clases) y vínculos (relaciones) entre ellas.
+b) Modela el contexto del sistema utilizando un diagrama de clases UML.
+c) Teniendo en cuenta la narrativa y el modelo anterior, realiza un listado de las funcionalidades principales que consideras que debería tener el sistema
