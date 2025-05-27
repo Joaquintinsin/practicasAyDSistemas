@@ -1,0 +1,8 @@
+3) AbstractFactoty
+4) Proxy
+	que los distintos tipos de proxy se implementen segun lo que sean, es decir, en el diagrama
+	no va a aparecer el concepto de "a medida que se requiera", sino que es solamente el proxy
+	y despues segun sea necesario segun el texto es la implementacion del tipo de proxy
+5) Singleton
+6) Mediator
+7) Command
